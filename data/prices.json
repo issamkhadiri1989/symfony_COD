@@ -1,0 +1,117 @@
+{
+    "references": [
+        {
+            "reference": "SNWHEISOL2000G-CHH",
+            "product_name": "100% Whey Isolate 2kg - Scitec Nutrition",
+            "net_price": 850,
+            "availability": {
+                "available": "YES"
+            },
+            "promotion": {
+                "global_discount": false,
+                "special_discount": true,
+                "standard": false,
+                "conditions": [
+                    {
+                        "condition": "ipsum lorem dolore"
+                    }
+                ]
+            },
+            "image": "https://www.prodietnutrition.ma/4477-large_default/100-whey-isolate-2kg-scitec-nutrition.jpg"
+        },
+        {
+            "reference": "SNBCA+GL300G-APP-1",
+            "product_name": "Bcaa+Glutamine xpress 300g - Scitec Nutrition",
+            "net_price": 350,
+            "availability": {
+                "available": "YES"
+            },
+            "promotion": {
+                "global_discount": false,
+                "special_discount": false,
+                "standard": true
+            },
+            "image": "https://www.prodietnutrition.ma/4694-large_default/bcaaglutamine-xpress-300g-scitec-nutrition.jpg"
+        },
+        {
+            "reference": "MUESLIBAR40G-CHM",
+            "product_name": "Vegan Bar 40G Chocolate & Mandarin - Tekmar",
+            "net_price": 15,
+            "availability": {
+                "available": "YES"
+            },
+            "promotion": {
+                "global_discount": false,
+                "special_discount": false,
+                "standard": false
+            },
+            "image": "https://www.prodietnutrition.ma/4493-large_default/vegan-bar-40g-chocolate-mandarin-tekmar.jpg"
+        },
+        {
+            "reference": "NUISOWHPRO2250G-CC",
+            "product_name": "Iso whey prozero 2.25Kg - Nutrend",
+            "net_price": 850,
+            "availability": {
+                "available": "NO"
+            },
+            "promotion": {
+                "global_discount": true,
+                "special_discount": false,
+                "standard": false,
+                "amount": {
+                    "rate": 20
+                }
+            },
+            "image": "https://www.prodietnutrition.ma/6322-large_default/iso-whey-prozero-225kg-nutrend.jpg"
+        },
+        {
+            "reference": "TRMAGN80005.5KG-BA",
+            "product_name": "Magnum 8000 5,450kg - Trec Nutrition",
+            "net_price": 700,
+            "availability": {
+                "available": "NO"
+            },
+            "promotion": {
+                "global_discount": false,
+                "special_discount": false,
+                "standard": false
+            },
+            "clearance_item": true,
+            "special_offer": false,
+            "image": "https://www.prodietnutrition.ma/6015-large_default/magnum-8000-5450kg-trec-nutrition.jpg"
+        },
+        {
+            "reference": "MUESLIKETO200G-CCN",
+            "product_name": "Keto muesli Coconut-cocoa nibs 200g – Tekmar",
+            "net_price": 30,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget vehicula nisl. Morbi convallis ullamcorper sagittis. Quisque a elementum neque. Morbi id varius lectus",
+            "availability": {
+                "available": "YES"
+            },
+            "promotion": {
+                "global_discount": false,
+                "special_discount": false,
+                "standard": false
+            },
+            "clearance_item": false,
+            "special_offer": true,
+            "image": "https://www.prodietnutrition.ma/4951-large_default/keto-muesli-coconut-cocoa-nibs-200g-tekmar.jpg"
+        },
+        {
+            "reference": "LP8035-20",
+            "product_name": "Kit Body pump 20 - Livepro",
+            "net_price": 269,
+            "availability": {
+                "available": "YES"
+            },
+            "promotion": {
+                "global_discount": false,
+                "special_discount": false,
+                "standard": true
+            },
+            "clearance_item": false,
+            "special_offer": true,
+            "image": "https://www.prodietnutrition.ma/6298-large_default/kit-body-pump-20-livepro.jpg"
+        }
+    ]
+}

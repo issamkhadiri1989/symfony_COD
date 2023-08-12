@@ -1,0 +1,55 @@
+<div class="card mt-2 mb-2">
+    <div class="row">
+        <div class="col-sm-2 parent" style="width: 200px">
+            {% block promotion_placeholder %}{% endblock %}
+            <img class="card-img" src="{{ reference.image }}" alt="Suresh Dasari Card" width="100%">
+        </div>
+        <div class="col-sm-6">
+            <div class="card-body">
+                <h5 class="card-title">{{ reference.productName }}</h5>
+                {% if reference.description|trim is not empty %}
+                    <div class="card-text text-dark">
+                        <em>{{ reference.description }}</em>
+                    </div>
+                {% endif %}
+            </div>
+            {% block conditions %}{% endblock %}
+        </div>
+        <div class="col-sm-4">
+            <div class="row   align-items-center justify-content-center">
+                <div class="col-12">
+                    {% block discount %}{% endblock %}
+                    {% block price %}
+                        <p class="lead fs-3  d-flex align-items-center ">
+                            {{ reference.price | number_format(2, ',', ' ') }} &euro;
+                        </p>
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {#<div class="card-footer">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-sm-3 mx-auto">
+                    <div class="input-group">
+                            <span class="input-group-prepend">
+                                <button type="button" class="btn btn-outline-secondary btn-number" disabled="disabled"
+                                        data-type="minus" data-field="quant[1]">
+                                    <span class="fa fa-minus"></span>
+                                </button>
+                            </span>
+                        <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1"
+                               max="10">
+                        <span class="input-group-append">
+                                <button type="button" class="btn btn-outline-secondary btn-number" data-type="plus"
+                                        data-field="quant[1]">
+                                    <span class="fa fa-plus"></span>
+                                </button>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>#}
+</div>

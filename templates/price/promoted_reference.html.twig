@@ -1,0 +1,23 @@
+{% extends 'price/default_reference.html.twig' %}
+{% block promotion_placeholder %}
+    <div class="ribbon {{ extra_classes is defined ? extra_classes : '' }}">
+        {{ reference.promotion.promotion|upper }}
+    </div>
+{% endblock %}
+{% block price %}
+    {% if reference.promotion.amount > 0 %}
+        <p class="lead ">
+            <strong class="text-decoration-line-through btn-secondary fs-5">
+                {{ reference.price | number_format(2, ',', ' ') }} &euro;
+            </strong>
+            <br/>
+            <span class="fs-3 ">
+                {{ (reference.price * (1 - (reference.promotion.amount * 0.01))) | number_format(2, ',', ' ') }} &euro;
+                ( <small class="badge text-black"> Discount : - {{ reference.promotion.amount }} %</small> )
+            </span>
+            <br/>
+        </p>
+    {% else %}
+        {{ parent() }}
+    {% endif %}
+{% endblock %}
